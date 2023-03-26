@@ -1,0 +1,187 @@
+.logo {
+  border: 1px solid rgb(69, 72, 74);
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.topbar {
+  border: 1px solid rgb(69, 72, 74);
+  margin-left: 100px;
+  height: 100px;
+  background: linear-gradient(0deg, rgb(76, 129, 186), rgb(66, 66, 68));
+  border-radius: 20px;
+}
+
+body {
+  background: linear-gradient(45deg, #b5b5b5, #4c5866, #5071a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  border: 3px solid rgb(69, 72, 74);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.text3 {
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 2%;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.head {
+  background: linear-gradient(0deg, rgb(76, 129, 186), rgb(66, 66, 68));
+  border-radius: 20px;
+  height: 80px;
+  position: relative;
+  margin: 3px;
+}
+
+.head p {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: 0px;
+  top: 15px;
+  left: 500px;
+  position: relative;
+  width: 300px;
+  margin: 0px;
+}
+
+.hardskills {
+  float: left;
+  position: relative;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-left: 20%;
+  border: 4px dotted rgb(69, 72, 74);
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
+}
+
+.hardskills p {
+  margin-top: 0px;
+  color: black;
+}
+
+.softskills {
+  position: relative;
+  float: right;
+  font-size: 50px;
+  margin-top: 5%;
+  margin-right: 20%;
+  border: 4px dotted rgb(69, 72, 74);
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
+}
+
+.softskills p {
+  margin-top: 0px;
+  color: black;
+}
+.topbar button {
+  border: 1px solid rgb(69, 72, 74);
+  background: none;
+  position: absolute;
+  border-radius: 20px;
+  width: 250px;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.button1 button {
+  margin-left: 50px;
+}
+
+.button2 button {
+  margin-left: 350px;
+}
+
+.button3 button {
+  margin-left: 650px;
+}
+
+.button4 button {
+  margin-left: 950px;
+}
+
+#bio,
+#skill,
+#mywork {
+  display: none;
+}
+
+#skill {
+  display: none;
+}
+
+#mywork {
+  display: none;
+}
+
+#bio:target {
+  display: block;
+}
+
+#skill:target {
+  display: block;
+}
+
+#mywork:target {
+  display: block;
+}
+
+.fotobio {
+  border: 1px solid rgb(69, 72, 74);
+  background-image: url(../img/myfoto-min.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  width: 450px;
+  position: relative;
+  border-radius: 20px;
+  float: left;
+  margin-right: 50px;
+}
