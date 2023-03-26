@@ -1,3 +1,22 @@
+.logo {
+  border: 1px solid rgb(69, 72, 74);
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.topbar {
+  border: 1px solid rgb(69, 72, 74);
+  margin-left: 100px;
+  height: 100px;
+  background: linear-gradient(0deg, rgb(76, 129, 186), rgb(66, 66, 68));
+  border-radius: 20px;
+}
+
 body {
   background: linear-gradient(45deg, #b5b5b5, #4c5866, #5071a7);
   min-height: 100vh;
@@ -41,30 +60,12 @@ body {
   padding: 20px;
   margin-bottom: 0px;
 }
-.logo {
-  border: 1px solid rgb(69, 72, 74);
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: 100px;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  border-radius: 20px;
-}
-
-.topbar {
-  border: 1px solid rgb(69, 72, 74);
-  margin-left: 100px;
-  height: 100px;
-  background: linear-gradient(0deg, rgb(76, 129, 186), rgb(66, 66, 68));
-  border-radius: 20px;
-}
 
 .head {
   background: linear-gradient(0deg, rgb(76, 129, 186), rgb(66, 66, 68));
   border-radius: 20px;
   height: 80px;
-  position: relativabe;
+  position: relative;
   margin: 3px;
 }
 
@@ -131,7 +132,6 @@ body {
 }
 
 .button1 button {
-  position: center;
   margin-left: 50px;
 }
 
